@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+ <%= render 'layouts/navbar' %>
+
+<%= yield %>
+<div class="footer">
+<div class="container">
+<div class="pull-right">
+        <a href ="#"><img src ="http://s4.postimg.org/l9sr7odex/logo22.png"></a>
+          <a href ="#"><img src ="http://s2.postimg.org/8eo9luf91/linkedin12.png"></a>
+        
+          <div><p>&copy; 2015 Hisham</p>
+            
+          
+          
+          </div>
+       </div>
+
+    </div>  
+</div>
+</body>
+</html>
