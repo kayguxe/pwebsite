@@ -67,6 +67,10 @@ body {
   font-family: sans-serif;
   color: #FF0000;
 }
+.img{
+    padding-top: 20px;
+    
+}
 .main-contact{
   padding-top: 100px;
    margin-left: 200px;
