@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0.beta2'
+gem 'bootstrap-sass', '3.2.0.2'
 # Use sqlite3 as the database for Active Reco
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.0.beta1'
