@@ -6,4 +6,6 @@ class PagesController < ApplicationController
     end
     def contact
     end
+    def portfolio
+    end
 end
